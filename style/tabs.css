@@ -1,0 +1,32 @@
+.tabs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.tabs__content {
+    height: 345px;
+}
+.tabs__tab {
+    height: 100%;
+}
+.tabs__buttons {
+    height: 44px;
+    width: calc(100% + 1px);
+    display: flex;
+    flex-direction: row;
+}
+.tabs__button {
+    width: 100%;
+    border: 1px solid #000;
+
+    border-bottom: none;
+    border-left: none;
+
+    font-size: 18px;
+
+
+}
+.tabs__button_active {
+    color: white;
+    background-color: black;
+}

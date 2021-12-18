@@ -1,0 +1,19 @@
+.form {
+    position: relative;
+}
+
+.form__button {
+    position: absolute;
+    top: 7px;
+    right: 17px;
+}
+
+.form__input{
+    width: 100%;
+    border:   none;
+    font-size: 18px;
+
+    padding-left: 16px;
+    padding-right: 65px;
+    margin-top: 11px;
+}

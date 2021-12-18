@@ -1,0 +1,31 @@
+
+.locations {
+}
+.locations__title {
+    width: 100%;
+    border-bottom: 1px solid #000;
+    padding-top: 33px;
+    padding-left: 18px;
+    padding-bottom: 7px;
+}
+.locations__container {
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 18px;
+
+    height: 255px;
+    overflow: auto;
+    margin-bottom: 35px;
+}
+.locations__item {
+    margin-bottom: 14px;
+
+    display: block;
+    width: 100%;
+
+    text-align: left;
+
+    padding-right: 10px;
+}

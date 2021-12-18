@@ -1,0 +1,24 @@
+.location{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.location__name {
+    cursor: pointer;
+
+}
+
+.location__close {
+    opacity: 0.3;
+    transition: opacity 0.5s ease-in-out;
+    
+
+    cursor: pointer;
+}
+
+.location__close:hover, 
+.location__close:focus {
+    opacity: 1;
+}
+
